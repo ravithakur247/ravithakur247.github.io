@@ -6,9 +6,22 @@ import {
   FaReact,
   FaGitAlt,
   FaGithubSquare,
-  FaLink,
+  FaLinkedinIn,
+  FaAws,
+  FaNodeJs,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import {
+  SiJavascript,
+  SiStyledcomponents,
+  SiRedux,
+  SiNestjs,
+  SiTypescript,
+  SiRedis,
+  SiMongodb,
+} from "react-icons/si";
+
+import { GrGraphQl } from "react-icons/gr"
+import { AiOutlineApi, AiOutlineConsoleSql } from "react-icons/ai";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -24,10 +37,10 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "ravithakur247";
 
 // Blog link icon (imported above)
-export const Blog = <FaLink />;
+export const Blog = <FaLinkedinIn />;
 
 /* About Me
  **************************************************************
@@ -43,48 +56,93 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <FaNodeJs className="display-4" />,
+    name: "Node JS",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <SiNestjs className="display-4" />,
+    name: "Nest JS",
   },
   {
     id: 3,
+    skill: <SiTypescript className="display-4" />,
+    name: "TypeScript",
+  },
+  {
+    id: 4,
     skill: <SiJavascript className="display-4" />,
     name: "JavaScript",
   },
   {
-    id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    id: 5,
+    skill: <AiOutlineApi className="display-4" />,
+    name: "Rest",
   },
   {
-    id: 5,
+    id: 6,
+    skill: <GrGraphQl className="display-4" />,
+    name: "GraphQl",
+  },
+  {
+    id: 7,
+    skill: <FaAws className="display-4" />,
+    name: "AWS",
+  },
+  {
+    id: 8,
+    skill: <SiRedis className="display-4" />,
+    name: "Redis",
+  },
+  {
+    id: 9,
+    skill: <AiOutlineConsoleSql className="display-4" />,
+    name: "SQL",
+  },
+  {
+    id: 10,
+    skill: <SiMongodb className="display-4" />,
+    name: "Mongo DB",
+  },
+  {
+    id: 11,
     skill: <FaReact className="display-4" />,
     name: "React",
   },
   {
-    id: 6,
+    id: 12,
     skill: <SiStyledcomponents className="display-4" />,
     name: "Styled Components",
   },
   {
-    id: 7,
+    id: 13,
     skill: <SiRedux className="display-4" />,
     name: "Redux",
   },
   {
-    id: 8,
+    id: 14,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 15,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
+  },
+  {
+    id: 16,
+    skill: <FaHtml5 className="display-4" />,
+    name: "HTML5",
+  },
+  {
+    id: 17,
+    skill: <FaCss3Alt className="display-4" />,
+    name: "CSS3",
+  },
+  {
+    id: 18,
+    skill: <FaBootstrap className="display-4" />,
+    name: "BootStrap",
   },
 ];
 
@@ -110,4 +168,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xknaoqzb";

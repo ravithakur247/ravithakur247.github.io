@@ -3,9 +3,9 @@ import { useAppContext } from "../appContext";
 import { Link } from "react-scroll";
 // Components
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { FaCode } from "react-icons/fa";
 import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
 // Images
-import Logo from "../images/logo.svg";
 
 export default function NavBar() {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
@@ -24,13 +24,14 @@ export default function NavBar() {
       >
         <Container>
           <Navbar.Brand>
-            <img
+            <FaCode className="display-6" />
+            {/* <img
               alt="React Logo"
               src={Logo}
               width="35"
               height="35"
               className="d-inline-block align-top bg-dark rounded-circle nav-logo"
-            />
+            /> */}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -97,6 +98,7 @@ export default function NavBar() {
             <Nav>
               <ToggleSwitch />
             </Nav>
+
           </Navbar.Collapse>
         </Container>
       </Navbar>
