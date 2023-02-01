@@ -47,7 +47,7 @@ export const Blog = <FaLinkedinIn />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "As a seasoned software engineer with 5 years of experience in a variety of industries, including gaming, fintech, blockchain, data science, logistics, healthcare, and e-commerce, I bring a wealth of knowledge and expertise to the table. My proficiency in Node.js, TypeScript, JavaScript, React, AWS, REST services, GraphQL, microservices, SDLC, JIRA, and Agile methodologies has allowed me to help businesses automate their processes and increase their revenue. With my strong technical skills and passion for delivering solutions that drive growth and success, I am confident in my ability to bring value to any project I am a part of.";
 
 /* Skills
  ************************************************************** 
